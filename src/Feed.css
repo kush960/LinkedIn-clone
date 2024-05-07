@@ -1,0 +1,66 @@
+.feed{
+    flex: 0.6;
+    margin: 0 20px;
+}
+.feed__inputContainer{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.feed__input{
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: gray;
+    padding-left: 15px;
+}
+.feed__input > form {
+    display: flex;
+    width: 100%;
+}
+.feed__input > form > input {
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+.feed__input > form > button {
+    /* display: none; */
+    display: flex;
+    height: 100%;
+    border: none;
+    background: white;
+    color: #0a66c2;
+    cursor: pointer;
+}
+.feed__inputOptions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feed__inputOptions > label{
+    display: flex;
+    align-items: center;
+}
+.feed__input__selectedfile{
+    padding: 10px 0 0 10px;
+}
+.feed__input__progress{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.feed__input__progress > span{
+    flex: 0.95;
+    height: 8px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.feed__input__progress > p{
+    font-size: 12px;
+    font-weight: 600;
+}
