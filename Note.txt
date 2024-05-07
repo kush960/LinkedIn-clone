@@ -1,0 +1,19 @@
+//firebase.json file 
+ "hosting": {
+    "site":"abhishekkushwah827-linkedin-clone",
+    "public": "build",
+    }
+
+
+//Live Link 
+https://linkedin-clone-9335a.web.app/
+https://abhishekkushwah827-linkedin-clone.web.app/
+
+
+
+//firebase deploy cmds::::
+firebase login
+firebase init (hosting>single-page>build>no github)
+change json file...
+npm run build
+firebase deploy --only hosting:abhishekkushwah827-linkedin-clone
