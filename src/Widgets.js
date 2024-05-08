@@ -24,7 +24,7 @@ function Widgets() {
                 <InfoIcon />
             </div>
 
-            {newsArticle("The Full Stack Abhi Is Back", "Top news - 9099 reader")}
+            {newsArticle("The Full Stack Kushagra Is Back", "Top news - 9099 reader")}
             {newsArticle("Coronavirus: India updates", "Top news - 886 reader")}
             {newsArticle("Bitcoin Breaks $22K", "Crypto - 8000 reader")}
             {newsArticle("JavaScript Mastery", "Code - 120000 reader")}
